@@ -79,7 +79,6 @@ gsap.to (".scroll", {
     scrollTrigger: {
         trigger: "#header",
         start: "20px top",
-        markers: true,
         end: "20px top",
         toggleActions: "restart none reverse none"
     },
